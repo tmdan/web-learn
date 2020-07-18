@@ -1,0 +1,68 @@
+/node_modules
+/public/hot
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+#дополнения
+
+/.idea
+/.vscode
+/.vagrant
+/nbproject
+.htaccess
+.phpunit.result.cache
+
+##Project Files for IDEs
+
+
+# sublime project files
+*.sublime-project
+*.sublime-workspace
+
+# netbeans project files
+/nbproject/
+nbproject/**
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# Mac DS_Store Files
+.DS_Store
+
+
+# windows thumbnail cache
+Thumbs.db
+/!TEMP/**
+
+# composer vendor dir
+vendor/
+composer.phar
+
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+# logs
+/access_log
+/error_log
+
+# Node Module
+nodejs/node_modules
+
+
+
+
