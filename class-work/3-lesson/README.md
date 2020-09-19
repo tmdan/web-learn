@@ -15,6 +15,7 @@
 
 ## Видеоматериал:
   - https://www.youtube.com/embed/MGWtEQbHLNE
+  - https://www.youtube.com/watch?v=5Edld4oASgw
 
 ## Домашнее занятие:
   Создайте класс для работы с куки Cookie который принимает в себя методы:
