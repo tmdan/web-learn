@@ -1,5 +1,7 @@
 Работа с куки
 =====================
+<p align="center"><img src="https://www.freeiconspng.com/uploads/download-biscuit-cookie-monster-clipart-24.png" width="400"></p>
+
 ## Вопросы для занятия
 - Что такое куки?
 - Зачем нужны куки и возможности которые они позволяют?
