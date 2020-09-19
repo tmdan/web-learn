@@ -1,6 +1,6 @@
 Работа с куки
 =====================
-<p align="center"><img src="https://www.freeiconspng.com/uploads/download-biscuit-cookie-monster-clipart-24.png" width="400"></p>
+<p align="left"><img src="https://www.freeiconspng.com/uploads/download-biscuit-cookie-monster-clipart-24.png" width="150"></p>
 
 ## Вопросы для занятия
 - Что такое куки?
