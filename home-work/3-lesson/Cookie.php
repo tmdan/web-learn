@@ -12,15 +12,15 @@ class Cookie
      * @param string $value - значение (массив либо строка)
      * @return string - возращается установленное значение
      */
-    public static function set(string $name, string $value): string
+    public static function set(string $name, string $value, string $time): string
     {
         if (is_array($value))
         {
             $str = serialize($value);
-            setcookie($name, $str, time() + 3600);
+            setcookie($name, $str, time() +  intval($time));
         }
         else {
-            setcookie($name, $value, time() + 3600);
+            setcookie($name, $value, time() +  intval($time));
         }
         return $_COOKIE[$name];
     }
@@ -31,9 +31,15 @@ class Cookie
      */
     public static function get($name)
     {
-        $str = $_COOKIE[$name];
-        $result = unserialize($str);
-        return $_COOKIE[$result];
+        $value = $_COOKIE[$name];
+        if (is_array($value))
+        {
+            $result = unserialize($_COOKIE[$name]);
+            return $result;
+        }
+        else {
+            return $_COOKIE[$name];
+        }
     }
 
     /**
