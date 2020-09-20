@@ -33,7 +33,7 @@ class Session
      * @param $name
      * @return bool
      */
-    public static function delete($name):bool
+    public static function delete($name): bool
     {
         unset($_SESSION[$name]);
         return true;
@@ -43,8 +43,8 @@ class Session
      * Удалем всю сессию целиком
      * @return bool
      */
-    public static function destroy():bool
+    public static function destroy(): bool
     {
-        return session_destroy() ? true : false;
+        return session_destroy();
     }
 }
