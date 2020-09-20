@@ -45,6 +45,7 @@ $second *= 24;
 //10 дней
 $second *= 10;
 
+//Устанавливаем куку на 10 дней
 setcookie('USER_ID', '1', time() + $second);
 ?>
 
