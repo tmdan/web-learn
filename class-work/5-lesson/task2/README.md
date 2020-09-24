@@ -65,7 +65,7 @@ spl_autoload_register(function ($className) {
 - Стандарт PSR0: https://www.php-fig.org/psr/psr-0/
 - Русификация страндартов: https://svyatoslav.biz/misc/psr_translation/#_PSR-0
 
-##Домашнее задание
+## Домашнее задание
 - Посмотреть видео материалы
 - Изучить текстовые материалы
 - Изучить видеоматериал по стандарту PSR1
