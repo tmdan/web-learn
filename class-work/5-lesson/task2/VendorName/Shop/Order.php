@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Order;
+namespace VendorName\Shop;
 
-class Name
+class Order
 {
     public static function run(){
         echo "hello";
