@@ -1,8 +1,6 @@
 <?php
 
-require "autoload.php";
-
-
+require "autoload-psr0.php";
 
 
 use VendorName\Shop\Order;
