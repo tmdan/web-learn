@@ -19,3 +19,14 @@ $ok->bindParam(':table', $new_table, PDO::PARAM_STR);
 
 $ok->execute();
 var_dump($ok);
+
+
+$sql = "SELECT * FROM my_users;";
+$k = $pdo->query($sql);
+
+$users = $k->fetchAll(PDO::FETCH_ASSOC);
+
+foreach ($users as $user)
+{
+    echo $user['firstname'] . ' ' . $user['lastname'] . ' - ' . $user['email'] . '<br>';
+}
