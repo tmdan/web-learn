@@ -1,10 +1,11 @@
 <?php
 
-namespace Stepan;
+namespace VendorName\Shop;
 
 class Order
 {
     public static function run(){
-        echo "Степан";
+        echo "hello";
     }
+
 }

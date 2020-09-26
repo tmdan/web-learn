@@ -1,10 +1,10 @@
 <?php
 
-namespace Stepan;
+namespace Ivan\Order;
 
 class Order
 {
     public static function run(){
-        echo "Степан";
+        echo "Иван";
     }
 }

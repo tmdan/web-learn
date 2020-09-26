@@ -1,8 +1,10 @@
 <?php
 
+
 /**
  * PSR0 стандарт автозагрузки файлов PHP
  */
+
 spl_autoload_register(function ($className) {
 
     //Удаляет \\ символы из начала строки
@@ -25,6 +27,8 @@ spl_autoload_register(function ($className) {
     //Формируем полный путь к файлу
     $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
 
+
     //Подключаем файл
     require $fileName;
+
 });
