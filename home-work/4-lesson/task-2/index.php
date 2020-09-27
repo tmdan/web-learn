@@ -11,11 +11,11 @@ $lastname = 'Nikolaenko';
 $email = 'yana@mail.ru';
 
 
-$ok=$pdo->prepare("INSERT INTO :table (`firstname`, `lastname`, `email`) VALUES (:firstname, :lastname, :email);");
-$ok->bindParam(':table', $new_table, PDO::PARAM_STR);
-//$ok->bindParam(':firstname', $firstname, PDO::PARAM_STR);
-//$ok->bindParam(':lastname', $lastname, PDO::PARAM_STR);
-//$ok->bindParam(':email', $email, PDO::PARAM_STR);
+$ok=$pdo->prepare("INSERT INTO my_users (`firstname`, `lastname`, `email`) VALUES (:firstname, :lastname, :email);");
+//$ok->bindParam(':table', $new_table, PDO::PARAM_STR);
+$ok->bindParam(':firstname', $firstname, PDO::PARAM_STR);
+$ok->bindParam(':lastname', $lastname, PDO::PARAM_STR);
+$ok->bindParam(':email', $email, PDO::PARAM_STR);
 
 $ok->execute();
 var_dump($ok);

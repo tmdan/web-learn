@@ -2,6 +2,7 @@
 
 require "autoload.php";
 
-use Petya\Send;
+use Yana\Send;
 
 Send::ok();
+
