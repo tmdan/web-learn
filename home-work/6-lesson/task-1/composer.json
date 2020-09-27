@@ -1,0 +1,16 @@
+{
+    "name": "yana22051994/yana01",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Яна",
+            "email": "andreiocsana@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./app"
+        }
+    }
+}
