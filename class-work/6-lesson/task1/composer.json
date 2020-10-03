@@ -1,0 +1,31 @@
+{
+  "name": "tmdan/6-lesson-task-1",
+  "authors": [
+    {
+      "name": "tmdan",
+      "email": "mukhammed.ne@gmail.com"
+    }
+  ],
+  "require": {
+    "tmdan/composer-package": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "./app"
+    }
+  },
+  "scripts": {
+    "create-user-table": "App\\Migrations\\CreateUserTable::up",
+    "create-products-table": "App\\Migrations\\CreateProductTable::up",
+    "migrate": [
+      "@composer create-user-table",
+      "@composer create-products-table"
+    ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/tmdan/composer-package"
+      }
+    ]
+  }
+}
