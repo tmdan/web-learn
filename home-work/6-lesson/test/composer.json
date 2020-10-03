@@ -1,0 +1,13 @@
+{
+    "name": "yana22051994/yanaa1",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Яна",
+            "email": "andreiocsana@gmail.com"
+        }
+    ],
+    "require": {
+        "yana22051994/yana01" : "dev-master"
+    }
+}
