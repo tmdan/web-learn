@@ -8,7 +8,8 @@
   
 
 ## Видеоматериал:
-  - https://www.youtube.com/watch?v=kyDE63z2n4o
+  - https://www.youtube.com/watch?v=GPcYx3BHcxg
+  - https://www.youtube.com/watch?v=z8H2SZtwl7M
 
 ## Текстовый материал:
   - https://getcomposer.ucoz.org/publ/kniga/skhema_composer_json/2-1-0-5
