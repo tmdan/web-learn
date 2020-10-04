@@ -1,0 +1,18 @@
+{
+    "name": "yana22051994/cookie_session",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Яна",
+            "email": "andreiocsana@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability" : "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yana22051994\\" : "./app"
+        }
+    }
+}
