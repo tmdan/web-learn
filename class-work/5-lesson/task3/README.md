@@ -13,6 +13,7 @@
 
 ## Текстовый материал:
   - https://getcomposer.ucoz.org/publ/kniga/skhema_composer_json/2-1-0-5
+  - https://composer.json.jolicode.com/
 
 ## Домашнее занятие:
    - Посмотрите видео-материал к таску
