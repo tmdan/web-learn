@@ -17,9 +17,13 @@
   "scripts": {
     "create-user-table": "App\\Migrations\\CreateUserTable::up",
     "create-products-table": "App\\Migrations\\CreateProductTable::up",
+    "create-order-table": "App\\Migrations\\CreateOrderTable::up",
+    "create-deliverer-table": "App\\Migrations\\CreateDelivererTable::up",
     "migrate": [
       "@composer create-user-table",
-      "@composer create-products-table"
+      "@composer create-products-table",
+      "@composer create-order-table",
+      "@composer create-deliverer-table"
     ]
   }
 }
