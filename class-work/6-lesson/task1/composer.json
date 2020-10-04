@@ -20,12 +20,6 @@
     "migrate": [
       "@composer create-user-table",
       "@composer create-products-table"
-    ],
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/tmdan/composer-package"
-      }
     ]
   }
 }
