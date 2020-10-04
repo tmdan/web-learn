@@ -1,26 +1,24 @@
 <?php
 
-namespace Yana22051994\Migrations;
 
-use Yana22051994\Components\Migration;
+namespace App\Migrations;
 
+use App\Components\Migration;
 
-class CreateUserTable extends Migration
+class CreateDelivererTable extends Migration
 {
-
     public static function up()
     {
         $instance = new self();
 
         // sql to create table
-        $sql = "CREATE TABLE user (" .
+        $sql = "CREATE TABLE deliverer (" .
             "id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY," .
-            "firstname VARCHAR(30) NOT NULL," .
-            "lastname VARCHAR(30) NOT NULL," .
+            "name_deliverer VARCHAR(30) NOT NULL," .
+            "UNP VARCHAR(30) NOT NULL," .
             "email VARCHAR(50)" .
             ")";
 
-               //Пытаемся создать таблцу
         if ($instance->con->query($sql)) {
             echo "Table user created successfully"."\n";
         } else {
