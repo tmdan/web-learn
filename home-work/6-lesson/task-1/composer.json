@@ -7,6 +7,8 @@
             "email": "andreiocsana@gmail.com"
         }
     ],
+    "license": "MIT",
+    "minimum-stability" : "stable",
     "require": {},
     "autoload": {
         "psr-4": {

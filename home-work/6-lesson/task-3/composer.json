@@ -1,0 +1,24 @@
+{
+  "name": "yana22051994/6-lesson-task-3",
+  "authors": [
+    {
+      "name": "yana22051994",
+      "email": "andreiocsana@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Yana22051994\\": "./app"
+    }
+  },
+  "scripts": {
+    "create-user-table": "Yana22051994\\Migrations\\CreateUserTable::up",
+    "create-product-table": "Yana22051994\\Migrations\\CreateProductTable::up",
+    "migrate": [
+      "@composer create-user-table",
+      "@composer create-product-table"
+    ]
+  }
+}
